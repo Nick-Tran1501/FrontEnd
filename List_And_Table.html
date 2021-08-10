@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>BÀI 5 - LIST && TABLE</h1>
+    <h3>VD 1:</h3>
+    <ul>
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h3>VD 2:</h3>
+    <ul style="list-style-type: square;">
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h3>VD 3:</h3>
+    <ul style="list-style-type: none;">
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h2>Tạo Danh sách có Thứ Tự</h2>
+    <h3>VD 4:</h3>
+    <ol>
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <h3>VD 5:</h3>
+    <ol type="A">
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <h3>VD 6:</h3>
+    <ol type="a">
+        <li>Coffe</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <dl>
+        <dt>Black Coffee</dt>
+        <dd>No Sugar</dd>
+        <dt>Milk Tea</dt>
+        <dd>Chocolate flavor</dd>
+    </dl>
+
+    <h1>Xây Dựng Table</h1>
+    <!-- thứ tự tạo table 
+    1/ thẻ table
+    2/ thẻ tr, th (header cho table)
+    3/ thẻ tr, td (hàng)
+    -->
+
+    <!-- Có thể sử dụng thuộc tính colspan để gộm column (Dọc)
+    rowspan để gộm row (Ngang) -->
+    <table style="width:400px; height: 400px; border-collapse: collapse;">
+        <tr>
+            <th style="border: 2px solid #7363b9; font-weight: bold;">Head 1</th>
+            <th colspan="2" style="border: 2px solid #7363b9; font-weight: bold;">Head 2 & 3</th>
+            <th style="border: 2px solid #7363b9; font-weight: bold;">Head 4</th>
+            <th style="border: 2px solid #7363b9; font-weight: bold;">Head 5</th>
+            <th style="border: 2px solid #7363b9; font-weight: bold;">Head 6</th>
+
+        </tr>
+        <tr>
+            <td rowspan="2" style="border: 2px solid #35746e">Cell 1 & CO1</td>
+            <td style="border: 2px solid #35746e">Cell 2</td>
+            <td style="border: 2px solid #35746e">Cell 3</td>
+            <td style="border: 2px solid #35746e">Cell 4</td>
+            <td style="border: 2px solid #35746e">Cell 5</td>
+            <td style="border: 2px solid #35746e">Cell 6</td>
+        </tr>
+        <tr>
+
+            <td style="border: 2px solid #a04791">CO2</td>
+            <td style="border: 2px solid #a04791">CO3</td>
+            <td style="border: 2px solid #a04791">CO4</td>
+            <td style="border: 2px solid #a04791">CO5</td>
+            <td style="border: 2px solid #a04791">CO6</td>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
