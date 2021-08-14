@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Bài Form</h1>
-    <form name="TTCN" action="Chess.html">
+    <form name="TTCN" action="Chess.html" method="GET">
         <label for="name">Full Name:</label><br>
         <input><br>
         <label for="Phone">Số Điện Thoại</label><br>
@@ -19,5 +19,34 @@
         <textarea></textarea><br>
         <button style="background-color:black; color: white;">Submit</button>
     </form>
+
+    <form name="TTCN" action="Chess.html" method="GET">
+        <label name="Username">Tài Khoản</label><br>
+        <input><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email"><br>
+        <label name="mk">Mật Khẩu</label><br>
+        <input type="password"><br>
+        <label name="sex">Giới Tính</label><br>
+        <input type="radio" name="gt" value="1">Nam<br>
+        <input type="radio" name="gt" value="0">Nữ<br>
+        <input type="radio" name="gt" value="2">Khác<br>
+        <label for="date"></label><br>
+        <input type="date" name="date"><br><br>
+        <input type="reset" name="Reset">
+        <button style="background-color:black; color: white;">Submit</button>
+    </form>
+
+    <!-- Post có tính bảo mật cao hơn Get. Post thường đc sử dụng cho những 
+    input có thông tin nhạy cảm như mật khẩu.
+    Thường sẽ dùng cho form đăng nhập
+    Get có tính bảo mật thấp thường dùng trên thanh tìm kiếm -->
+
+    <!-- type radio (ô lựa chọn tròn) chỉ đc chọn 1 option-->
+    <!-- type checkbox (ô vuông checked) chọn nhiều options -->
+    <!-- cái lại type input:
+    thầy kêu nhớ ăn trộm select tỉnh thành
+    
+    -->
 </body>
 </html>
