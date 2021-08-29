@@ -1,0 +1,29 @@
+/* border: độ dày, dạng, màu */
+/* Dưới đây là tính toán về chiều rộng tổng thể:
+ 320px (chiều rộng) + 20px (padding trái + phải) + 10px (đường viền trái + phải) + 0px (margin trái + phải) = 350px
+Chiều rộng tổng thể của một phần tử nên được tính như sau:
+
+Chiều rộng tổng thể = chiều rộng + padding trái + padding phải + đường viền trái + đường viền phải + margin trái + margin phải
+
+Chiều cao tổng thể của một phần tử nên được tính như sau:
+
+Chiều cao tổng thể = chiều cao + padding trên + padding dưới + đường viền trên + đường viền dưới + margin trên + margin dưới. */
+.div1{
+    border: 20px solid grey; 
+    background-color: indigo;
+    margin: 10px;
+    color: white;
+    padding: 25px;
+}
+.div2{
+    border: 5px solid rgb(27, 180, 78); 
+    background-color: rgb(224, 120, 51);
+    margin: 10px;
+}
+
+.content{
+    border-radius: 20px;
+    border: 10px solid rgb(85, 29, 29); 
+    background-color: rgb(83, 51, 224);
+    margin: 10px;
+}

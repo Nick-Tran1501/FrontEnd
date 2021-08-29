@@ -14,7 +14,7 @@ color: indianred;
 -border-style
 -border-width
 -border-color
-Top right bottom left tùy ý  */
+Thứ Tự Top right bottom left */
 
 p.dotted {border-style: dotted;}
 p.dashed {border-style: dashed;}
@@ -74,6 +74,8 @@ p.seven {
 tương tự thay image thành:
 -color: đổi màu
 -repeat: lặp lại x(ngang),y(dọc),.. nếu cần cân chỉnh hình ảnh
+attachment: fixed (dính) nếu có scrollbar
+background có thứ tự các thuộc tính như sau: color,image, repeat, position
 
  */
 
