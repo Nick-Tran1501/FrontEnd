@@ -5,20 +5,29 @@
 
 #menu {
     background-color: greenyellow;
-    height: 50px;
+    height: 75px;
     width: 100%;
     color: black;
     position: fixed;
     top: 0px;
     padding-left: 20px;
+    
+}
+
+#menu ul li {
+    text-align: center;
 }
 
 #menu li {
-    float: left;
+    float: right;
     list-style: none;
     width: 100px;
     position: relative;
-    padding: 15px;
+    padding: 10px;
+    bottom: 45px;
+    font-weight: bold;
+    font-size: 25px;
+
 }
 
 #menu li a {
@@ -31,9 +40,7 @@
     visibility: hidden;
     position: absolute;
     top: 55px;
-    left: 0px;
-
-    
+    right: 25px;
 }
 
 #menu ul ul li {
@@ -48,5 +55,12 @@
 
 }
 
+#menu img{
+    float: left;
+}
+#menu h1{
+    padding-left: 30%;
+    padding-top: 20px;
+}
 
 
