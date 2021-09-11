@@ -1,0 +1,20 @@
+#p1{
+    max-width: 100px;
+}
+
+
+/* overflow-x hoặc y sẽ tràn theo chiều ngang hoặc dọc */
+#overflow_test{
+    display: block;
+    background-color: chartreuse;
+    color: white;
+    padding: 15px;
+    width: 70px;
+    height: 100px;
+    border: 1px solid grey;
+    overflow: auto;
+}
+
+/* float: inherit kế thừa float phần tử gốc */
+
+

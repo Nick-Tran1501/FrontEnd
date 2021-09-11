@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: black;
+}
+
+p span{
+    color: red;
+}
+
+ul li{
+    display: inline;
+}
+
+.vd2 li{
+    display: block;
+}
