@@ -17,4 +17,11 @@
 
 /* float: inherit kế thừa float phần tử gốc */
 
+#before::before{
+    content: "Thêm Đằng Trước - ";
+}
+
+#after::after{
+    content: " -Thêm Đằng Sau";
+}
 
